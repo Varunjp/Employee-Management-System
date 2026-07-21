@@ -108,7 +108,6 @@ All variables are documented in [`.env.example`](./.env.example).
 
 | Variable                  | Default            | Description                                   |
 |----------------------------|---------------------|------------------------------------------------|
-| `APP_ENV`                  | `development`       | `development` / `production`                   |
 | `APP_PORT`                 | `8080`               | HTTP port the API listens on                    |
 | `DB_HOST` / `DB_PORT`       | `localhost` / `5432` | PostgreSQL connection host/port                |
 | `DB_USER` / `DB_PASSWORD`   | `postgres` / `postgres` | PostgreSQL credentials                    |
