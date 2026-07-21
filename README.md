@@ -1,7 +1,5 @@
 # Employee Management System
 
-![CI](https://github.com/yourorg/employee-management-system/actions/workflows/ci.yml/badge.svg)
-
 A production-style Employee Management REST API built in Go, following
 **Clean Architecture**. It supports full CRUD on employee records, backed
 by PostgreSQL (raw `pgx` queries — no ORM), Redis caching for reads,
