@@ -43,7 +43,6 @@ employee-management-system/
 ├── scripts/init-db.sql             # auto-run by the postgres container on first boot
 ├── Dockerfile
 ├── docker-compose.yml
-├── Makefile
 ├── .env.example
 └── ARCHITECTURE.md
 ```
