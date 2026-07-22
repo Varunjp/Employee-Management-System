@@ -63,7 +63,7 @@ func Load() (*Config, error) {
 		RedisDB:       redisDB,
 
 		JWTSecret:     getEnv("JWT_SECRET", ""),
-		JWTExpiration: time.Duration(jwtExpMinutes) * time.Hour,
+		JWTExpiration: time.Duration(jwtExpMinutes) * time.Minute,
 
 		AdminUsername: getEnv("ADMIN_USERNAME", "admin"),
 		AdminPassword: getEnv("ADMIN_PASSWORD", "admin123"),

@@ -152,7 +152,7 @@ func validateEmployeeFields(name, position string, salary int64, hiredDate time.
 	if strings.TrimSpace(position) == "" {
 		return fmt.Errorf("%w: position is required", domain.ErrInvalidInput)
 	}
-	if salary < 0 {
+	if salary < 1 {
 		return fmt.Errorf("%w: salary must not be negative", domain.ErrInvalidInput)
 	}
 	if hiredDate.IsZero() {
