@@ -13,7 +13,7 @@ containerized with Docker Compose.
 
 | Concern            | Choice                                     |
 |---------------------|---------------------------------------------|
-| Language            | Go 1.22                                     |
+| Language            | Go 1.25                                     |
 | Web framework       | [Echo v4](https://echo.labstack.com/)       |
 | Database            | PostgreSQL 16, via `jackc/pgx/v5` (raw SQL, no ORM) |
 | Cache               | Redis 7, via `redis/go-redis/v9`            |
