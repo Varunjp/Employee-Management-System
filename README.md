@@ -253,12 +253,6 @@ Unit tests for business logic (`internal/usecase`) use hand-rolled
 in-memory fakes for the repository and cache ports — no database or
 network is required to run them.
 
-## Continuous Integration
-
-`.github/workflows/ci.yml` runs on every push/PR to `main`: it spins up
-Postgres and Redis service containers, applies the migration, runs
-`go vet`, a `gofmt` check, the full test suite with the race detector,
-builds the binary, and finally builds the Docker image.
 
 ## Regenerating Swagger Docs
 
